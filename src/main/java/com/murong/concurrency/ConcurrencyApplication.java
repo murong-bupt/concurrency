@@ -1,0 +1,16 @@
+package com.murong.concurrency;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author xdy
+ */
+@SpringBootApplication
+public class ConcurrencyApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ConcurrencyApplication.class, args);
+    }
+
+}
